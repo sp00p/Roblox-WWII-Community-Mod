@@ -1,0 +1,260 @@
+focus_tree = {
+	id = IUS_Focus_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = IUS
+		}
+	}
+	default = no
+	focus = {
+		id = utp
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		text = "Unite The People"
+		x = 7
+		y = 1
+			completion_reward = {
+					add_political_power = 120
+					add_stability = 0.1
+					add_war_support = 0.05
+				}
+
+	}
+	focus = {
+		id = fouryeardp
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		text = "Four Year Development Plan"
+		prerequisite = {
+			focus = utp
+		}
+		x = 7
+		y = 2
+			completion_reward = {
+					add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						}
+
+				}
+
+	}
+	focus = {
+		id = modeff
+		icon = GFX_goal_generic_army_motorized
+		cost = 12.00
+		text = "Modernization Effort"
+		prerequisite = {
+			focus = fouryeardp
+		}
+		x = 3
+		y = 3
+			completion_reward = {
+					army_experience = 10
+					air_experience = 10
+					navy_experience = 10
+					add_tech_bonus = {
+						bonus = 1
+						uses = 1
+						category = land_doctrine
+						category = air_doctrine
+						category = naval_doctrine 	
+					}
+				}
+
+	}
+	focus = {
+		id = infantfoc
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 11.00
+		text = "Infantry Focus"
+		
+		prerequisite = {
+			focus = modeff
+		}
+		x = 1
+		y = 4
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1.0
+							uses = 1
+							category = infantry_weapons
+						}
+				}
+
+	}
+	focus = {
+		id = natref
+		icon = GFX_goal_generic_major_alliance
+		cost = 12.00
+		text = "National Referendum"
+		prerequisite = {
+			focus = fouryeardp
+		}
+		x = 7
+		y = 3
+			completion_reward = {
+					add_political_power = 25
+				}
+
+	}
+	focus = {
+		id = sidewithSOV
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 12.00
+		text = "Side with the Soviet Union"
+		prerequisite = {
+			focus = natref
+		}
+		mutually_exclusive = {
+			focus = sidewithGER
+		}
+		x = 6
+		y = 5
+			completion_reward = {
+					add_popularity = {
+							ideology = communism
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = democratic
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = fascism
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = nonaligned
+							popularity = -0.05
+						}
+				}
+
+	}
+	focus = {
+		id = sidewithGER
+		icon = GFX_goal_anti_comintern_pact
+		cost = 12.00
+		text = "Side with Germany"
+		prerequisite = {
+			focus = natref
+		}
+		mutually_exclusive = {
+			focus = sidewithSOV
+		}
+		x = 8
+		y = 5
+			completion_reward = {
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = democratic
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = -0.05
+						}
+					add_popularity = {
+							ideology = nonaligned
+							popularity = -0.05
+						}
+					add_opinion_modifier = {
+							target = GER
+							modifer = fascists_in_government
+						}
+				}
+
+	}
+	focus = {
+		id = indeff
+		icon = GFX_goal_generic_construction
+		cost = 12.00
+		text = "Industrialization Effort"
+		prerequisite = {
+			focus = fouryeardp
+		}
+		x = 11
+		y = 3
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 1
+							uses = 2
+							category = industry
+						}
+				}
+
+	}
+	focus = {
+		id = goleft
+		icon = GFX_goal_support_communism
+		cost = 20.00
+		text = "Go Left"
+		prerequisite = {
+			focus = sidewithSOV
+		}
+		x = 6
+		y = 6
+			completion_reward = {
+					retire_country_leader = yes
+					add_threat = 20
+					set_politics = {
+							ruling_party = communism
+							elections_allowed = no
+						}
+					add_opinion_modifier = {
+							target = SOV
+							modifier = communists_in_government
+						}
+				}
+
+	}
+	focus = {
+		id = goright
+		icon = GFX_goal_support_fascism
+		cost = 20.00
+		text = "Go Right"
+		prerequisite = {
+			focus = sidewithGER
+		}
+		x = 8
+		y = 6
+			completion_reward = {
+					retire_country_leader = true
+					set_politics = {
+							ruling_party = fascism
+							elections_allowed = no
+						}
+					add_opinion_modifier = {
+							target = GER
+							modifier = fascists_in_government
+						}
+				}
+
+	}
+	focus = {
+		id = suppart
+		icon = GFX_goal_generic_army_artillery2
+		cost = 11.00
+		text = "Support Artillery"
+		prerequisite = {
+			focus = infantfoc
+		}
+		x = 1
+		y = 5
+			completion_reward = {
+					army_experience = 10
+					add_tech_bonus = {
+							bonus = 1.0
+							uses = 1
+							category = artillery
+						}
+				}
+
+	}
+}
