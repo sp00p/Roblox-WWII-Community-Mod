@@ -1,0 +1,324 @@
+ideas = {
+
+	political_advisor = {
+
+		vilhelm_vartorn = {
+
+			picture = VilhelmVartornP
+
+			allowed = {
+				original_tag = IUS
+			}
+			
+			traits = { backroom_backstabber ideological_crusader silent_workhorse }
+		}
+
+		duke = {
+
+			picture = DukeP
+
+			allowed = {
+				original_tag = IUS
+			}
+
+			traits = { smooth_talking_charmer compassionate_gentleman communist_revolutionary }
+		}
+
+		fritz_gadsden = {
+
+			picture = FritzGadsdenP
+
+			allowed = {
+				original_tag = IUS
+			}
+
+			traits = { prince_of_terror fascist_demagogue war_industrialist }
+		}
+
+		bizarro_brunswick = {
+
+			picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+			traits = { popular_figurehead democratic_reformer }
+		}
+
+
+		star_vartorn = {
+
+			picture = StarVartornP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+			traits = { war_industrialist quartermaster_general fortification_engineer }
+		}
+
+	}
+
+	army_chief = {
+		
+		sky_vartorn = {
+			
+			picture = SkyVartornP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		dundo = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		bobby_b_star = {
+			
+			picture = BobbyBStarP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		duke2 = {
+			
+			picture = DukeP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		magnus_vartorn = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		arthur_vortelli = {
+			
+			picture = ArthurVortelliP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		elias_chamberlain = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		d_franko = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		roblox_man = {
+			
+			picture = RobloxManP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+
+	theorist = {
+		star_vartorn2 = {
+			
+			picture = StarVartornP
+
+			allowed = {
+				original_tag = IUS
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		thunder_a_light = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = ius
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		jack_vartorn = {
+
+			picture = generic_navy_europe_3
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+
+	}
+
+
+	high_command = {
+
+		karolus_vartorn = {
+
+			picture = KarolusVartornP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+			traits = { army_concealment_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		claudius_vartorn = {
+
+			picture = ClaudiusVartornP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+			traits = { navy_chief_naval_aviation_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		bobby_b_star2 = {
+
+			picture = BobbyBStarP
+			
+			allowed = {
+				original_tag = IUS
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+}
