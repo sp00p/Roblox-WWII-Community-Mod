@@ -1,0 +1,350 @@
+division_template = {
+	name = "Infanteri Divisjon"
+
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		infantry = { x = 1 y = 0}
+		infantry = { x = 1 y = 1}
+		infantry = { x = 1 y = 2}
+		infantry = { x = 2 y = 0}
+		infantry = { x = 2 y = 1}
+		infantry = { x = 2 y = 2}
+	}
+}
+
+units = {
+	
+	#####|Schleswig-Holstein|#####
+	
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9347
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9320
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 11331
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Vidzme|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9340
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 10323
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 3255
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 11358
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 310
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6459
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9275
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 222
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 319
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 3298
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Tartu|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 4640
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+		division = {
+		name = "Infanteri Divisjon"
+		location = 592
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Luga|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 126
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 3120
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6139
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9098
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 11139
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6197
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Leningrad|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 79
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 11068
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Karjala|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9176
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6153
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 11156
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Savo|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6210
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 3185
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 7
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6134
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 3073
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Lappi|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6045
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6128
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Salla|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9158
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 197
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 11085
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	#####|Petsamo|#####
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6183
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 6012
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {
+		name = "Infanteri Divisjon"
+		location = 9140
+		division_template = "Infanteri Divisjon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}	
+}
